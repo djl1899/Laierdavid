@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>WORK – LAIERDAVID</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
 
+<header>
+  <div class="logo">LAIERDAVID PORTFOLIO</div>
+  <div class="menu-btn" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<div id="menu-overlay">
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="work.html">WORK</a>
+    <a href="about.html">ABOUT ME</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+</div>
+
+<section class="work">
+  <h1>WORK</h1>
+
+  <div class="work-layout">
+
+    <div class="project-list">
+      <a href="projects/unme.html" class="project" data-image="assets/projects/unme.jpg">
+        <h2>UNME Christmas Affair</h2>
+        <span>CONTENT CREATION &nbsp; | &nbsp; DIGITAL DESIGN</span>
+      </a>
+
+      <a href="projects/event2.html" class="project" data-image="assets/projects/event2.jpg">
+        <h2>Summer Open Air</h2>
+        <span>VIDEO PRODUCTION &nbsp; | &nbsp; AFTERMOVIE</span>
+      </a>
+
+      <a href="projects/event3.html" class="project" data-image="assets/projects/event3.jpg">
+        <h2>Corporate Portraits</h2>
+        <span>PHOTOGRAPHY &nbsp; | &nbsp; BRANDING</span>
+      </a>
+    </div>
+
+    <div class="preview">
+      <img id="preview-image" src="assets/projects/unme.jpg" alt="Preview">
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <span>David.Laier@icloud.com</span>
+  <span>© 2026</span>
+</footer>
+
+</body>
+</html>
