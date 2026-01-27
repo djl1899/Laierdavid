@@ -206,4 +206,65 @@ footer {
 }
 
 
+.about h1 {
+  text-align: center;
+  font-size: 80px;
+  margin: 80px 0;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  display: block;
+}
+
+.about-text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.what-we-do {
+  text-align: center;
+  margin: 120px 0;
+}
+
+.what-we-do h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.what-we-do span {
+  font-size: 14px;
+  color: gray;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.team-member img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: gray;
+}
+
+.cta {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.cta h2 {
+  margin-bottom: 30px;
+}
+
+
 
