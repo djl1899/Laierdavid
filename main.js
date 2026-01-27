@@ -12,3 +12,12 @@ if (track) {
     track.appendChild(clone);
   });
 }
+const projects = document.querySelectorAll('.project');
+const previewImage = document.getElementById('preview-image');
+
+projects.forEach(project => {
+  project.addEventListener('mouseenter', () => {
+    previewImage.src = project.dataset.image;
+    previewImage.classList.add('active');
+  });
+});
