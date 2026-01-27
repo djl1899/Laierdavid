@@ -65,7 +65,7 @@ header {
 .project-slider {
   overflow: hidden;
   margin: 80px 0;
-  transform: rotate(-30deg);
+  transform: rotate(-20deg);
 }
 
 .slider-track {
