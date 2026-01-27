@@ -1,1 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.menu-btn {
+  cursor: pointer;
+}
+
+.menu-btn span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: white;
+  margin: 6px 0;
+}
+
+#menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: #0f0f0f;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#menu-overlay nav a {
+  display: block;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  letter-spacing: 4px;
+}
+
+.project-slider {
+  margin: 60px 0;
+}
+
+.project-slider a {
+  display: block;
+  margin: 15px 0;
+  color: gray;
+  text-decoration: none;
+}
+
+.description {
+  max-width: 800px;
+  margin: 60px auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.btn.secondary {
+  background: white;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 12px;
+  color: gray;
+}
