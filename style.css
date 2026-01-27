@@ -268,3 +268,40 @@ footer {
 
 
 
+.contact h1 {
+  font-size: 80px;
+  margin: 80px 100px 60px;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 100px 120px;
+  gap: 80px;
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+
+.contact-info h3 {
+  font-size: 14px;
+  margin: 40px 0 10px;
+  color: gray;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.contact-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
